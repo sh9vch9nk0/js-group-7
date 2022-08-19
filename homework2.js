@@ -28,10 +28,12 @@ var max = function(list){
 }
 4. 
 https://www.codewars.com/kata/544a54fd18b8e06d240005c0/solutions
+
 const min = (arr, toReturn) => toReturn === 'value' ? Math.min(...arr) : arr.indexOf(Math.min(...arr));
 
 5.
 https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
+
 function warnTheSheep(queue) {
   queue.reverse();
   for (let i = 0; i < queue.length; i++) {
@@ -46,12 +48,14 @@ function warnTheSheep(queue) {
 
 6. 
 https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
+
 function maps(x){
   return x.map (num => num * 2) 
 }
 
 7. 
 https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript
+
 function firstNonConsecutive(arr) {
     for (let i = 1; i < arr.length; i++) {
         if (arr[i - 1] + 1 !== arr[i]) return arr[i];
